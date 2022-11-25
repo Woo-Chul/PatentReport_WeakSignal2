@@ -1,4 +1,4 @@
-# <img src="/img/kipi_logo.png" width="5%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left">KIPI DATA INSIGHT</img>
+# <img src="/img/kipi_logo.png" width="5%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left">KIPI DATA INSIGHT 제2호</img>
 
 특허 DATA를 활용한 미래 기술 위크시그널 성장예측 분석
 ======================
@@ -18,7 +18,6 @@
 </br>
 
 # Chaper 3. 미래 기술 위크시그널 - CPC코드 활용편
-
 ## 1. CPC코드 활용
 
 > ```왜 CPC 코드를 활용할까?```

@@ -66,12 +66,14 @@
 - subgroup 기준 : 128,395개 (주분류)
 
 <p align="center">
-<img src="/img/cpc_group_extract1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/cpc_group_extract1.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+<p align="center"> 위크시그널을 위한 연도별 특허 문헌 수</p>
 </br>
 <p align="center">
 <img src="/img/cpc_group_extract2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+<p align="center"> 위크시그널을 위한 섹션 별 특허 문헌 수와 서브그룹 </p>
 </br>
 
 #### 1.2.3 CPC 활동성 측정

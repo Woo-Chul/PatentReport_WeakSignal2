@@ -126,13 +126,13 @@
 > 룹에서 기술그룹을 자동화 그래프 그룹핑하게되면 2만7천개의 기술들이 3,838개 그래프로 위크시그널을 보내게 됩니다. 아래 통계가 문헌 수와 서브그룹 기술 수 및 비중으로 표현되어 있습니> 다.
 
 <p align="center">
-<img src="/img/cpc_auto_group4.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/cpc_group_extract4.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> <위크시그널을 위한 섹션 별 weak signal 서브그룹 수> </p>
 </br>
 
 <p align="center">
-<img src="/img/cpc_auto_group5.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/cpc_group_extract5.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> <위크시그널을 위한 섹션 별 weak signal 서브그룹 비중> </p>
 

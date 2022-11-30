@@ -14,7 +14,7 @@
 <p align="center">
 <img src="/img/weaksignal_cover_19.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="cover19" align="center"></img>
 </p>
-<p align="center"> 참고 인용 문헌 : KISTI 미래기술 위크시그널 성장예측보고서 </p>
+<p align="center"> <참고 인용 문헌 : KISTI 미래기술 위크시그널 성장예측보고서> </p>
 </br>
 </br>
 
@@ -68,17 +68,21 @@
 <p align="center">
 <img src="/img/cpc_group_extract1.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> 위크시그널을 위한 연도별 특허 문헌 수</p>
+<p align="center"> <위크시그널을 위한 연도별 특허 문헌 수></p>
 </br>
 <p align="center">
 <img src="/img/cpc_group_extract2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> 위크시그널을 위한 섹션 별 특허 문헌 수와 서브그룹 </p>
+<p align="center"> <위크시그널을 위한 섹션 별 특허 문헌 수와 서브그룹> </p>
 </br>
 
 #### 1.2.3 CPC 활동성 측정
 
 > ```CPC 규모성, 활동성 측정```
+
+<p align="center">
+<img src="/img/cpc_group_extract3.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
 
 #### 1.2.4 Poping CPC 추출
 

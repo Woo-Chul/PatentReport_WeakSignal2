@@ -98,7 +98,7 @@
 </p>
 <p align="center"> <위크시그널을 위한 섹션 별 특허 팝핑 문헌 수와 팝핑 서브그룹> </p>
 
-#### 1.2.4 CPC 기술그룹 자동생성
+#### 1.2.5 CPC 기술그룹 자동생성
 
 > ```CPC 기술그룹 자동생성```
 
@@ -106,15 +106,45 @@
 > H01L 39/2464 기술들이 벡터 유사도 거리가 0.25이내로 의미적으로 가까운 기술로 볼 수 있어 그래프로 표현된 하나의 기술로 다시 볼 수 있습니다. 두번째 그림을 보면, E섹션으로 표현된 
 > 그래프 기술그룹이 생성된 것을 볼 수 있습니다.
 
+
 <p align="center">
-<img src="/img/cpc_auto_group1.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/cpc_auto_group1.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> <CPC subgroup으로 연결된 기술그룹 그래프 예시> </p>
+<p align="center"> < CPC subgroup으로 연결된 기술그룹 그래프 예시> </p>
+</br>
 
 <p align="center">
 <img src="/img/cpc_auto_group2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> <E섹션 내 CPC subgroup으로 연결된 기술그룹 그래프 예시> </p>
+<p align="center"> < E섹션 내 CPC subgroup으로 연결된 기술그룹 그래프 예시> </p>
+
+#### 1.2.6 CPC 기술그룹 통계
+
+> ```CPC 기술그룹 통계```
+
+> 466만건 특허 문헌은 subgroup 주분류 기준 12만 8천개 기술을 표현할 수 있고, 여기서 20만개 팝핑 문헌이 나오게 되고 팝핑 문헌 속 기술은 9만7천개가 나오게 됩니다. 9만 7천개 서브그
+> 룹에서 기술그룹을 자동화 그래프 그룹핑하게되면 2만7천개의 기술들이 3,838개 그래프로 위크시그널을 보내게 됩니다. 아래 통계가 문헌 수와 서브그룹 기술 수 및 비중으로 표현되어 있습니> 다.
+
+<p align="center">
+<img src="/img/cpc_auto_group4.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> <위크시그널을 위한 섹션 별 weak signal 서브그룹 수> </p>
+</br>
+
+<p align="center">
+<img src="/img/cpc_auto_group5.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> <위크시그널을 위한 섹션 별 weak signal 서브그룹 비중> </p>
+
+
+#### 1.2.7 CPC 기술그룹 시각화
+
+> ```CPC 기술그룹 시각화```
+
+> CPC 기술그룹을 형성하여 전체 섹션으로 보게 되면 문헌 기준 20만건의 팝핑 특허 문헌이 생기고 CPC subgroup 기준 9만 7천여개의 팝핑기술이 생기는 것을 알 수 있습니다. 또한 이 팝핑 기> 술들이 그래프로 그룹화 되어 3,838개 팝핑 기술 그룹(그래프)이 생성됩니다. 이로써 미래 기술로 3,838개 위크시그널이 발견되었습니다.
+
+
+
 
 #### 1.2.4 CPC 위크시그널 해석
 

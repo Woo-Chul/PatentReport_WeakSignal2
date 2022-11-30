@@ -123,7 +123,7 @@
 > ```CPC 기술그룹 통계```
 
 > 466만건 특허 문헌은 subgroup 주분류 기준 12만 8천개 기술을 표현할 수 있고, 여기서 20만개 팝핑 문헌이 나오게 되고 팝핑 문헌 속 기술은 9만7천개가 나오게 됩니다. 9만 7천개 서브그
-> 룹에서 기술그룹을 자동화 그래프 그룹핑하게되면 2만7천개의 기술들이 3,838개 그래프로 위크시그널을 보내게 됩니다. 아래 통계가 문헌 수와 서브그룹 기술 수 및 비중으로 표현되어 있습니> 다.
+> 룹에서 기술그룹을 자동화 그래프 그룹핑하게되면 2만7천개의 기술들이 3,838개 그래프로 위크시그널을 보내게 됩니다. 아래 통계가 문헌 수와 서브그룹 기술 수 및 비중으로 표현되어 있습니다.
 
 <p align="center">
 <img src="/img/cpc_group_extract4.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
@@ -153,7 +153,27 @@
 
 > ```CPC 위크시그널 해석```
 
+> 위크시그널로 나온 3,838개의 그래프들이 어떤 기술인지를 확인하기 위해서 CPC를 KSIC산업분류와 맵핑시켜 기술 파악하고 해석하려고 합니다. 따라서 산업(KSIC)-특허 연계표를 활용하여 기> 술을 해석해 보겠습니다.
+
+<p align="center">
+<img src="/img/weak_signal_check1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> <위크시그널 해석을 위한 산업분류와 특허분류의 맵핑표 적용> </p>
+
 > ```KSIC 산업분류를 활용한 CPC 위크시그널 해석```
+
+> 산업분류로 맵핑표에서는 서브클래스 기준으로 맵핑되었기에 아래의 설명 방식대로 기술을 표현하였고, 너무 포괄적인 산업 분류명인 경우는 제거하였습니다. 
+
+<p align="center">
+<img src="/img/weak_signal_check3.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> <CPC특허분류를 산업분류로 맵핑하는 > </p>
+</br>
+
+<p align="center">
+<img src="/img/weak_signal_check4.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> <너무 포괄적인 산업분류는 제거> </p>
 
 ## 2. CPC 코드 활용 위크시그널 성장예측모델
 

@@ -14,6 +14,7 @@
 <p align="center">
 <img src="/img/weaksignal_cover_19.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="cover19" align="center"></img>
 </p>
+<p align="center"> 참고 인용 문헌 : KISTI 미래기술 위크시그널 성장예측보고서 </p>
 </br>
 </br>
 
@@ -39,6 +40,11 @@
 - Subgroup 기준 주분류 128,395개
 - 전체 특허 4,661,158건
 - 대상 필드는 발명의 명칭, 요약, 배경기술, 기술분야, 청구항으로 적용
+
+<p align="center">
+<img src="/img/target_patent_docs2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
 
 #### 1.2.2 CPC 벡터 추출
 

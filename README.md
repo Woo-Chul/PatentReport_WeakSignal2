@@ -30,6 +30,18 @@
 
 ### 1.1 CPC 코드 활용 위크시그널 자동탐지 프로세스
 
+> ```KISTI 위크시그널 자동탐지 프로세스```
+<p align="center">
+<img src="/img/KISTI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kisti" align="center"></img>
+</p>
+</br>
+</br>
+
+> ```KIPI 위크시그널 자동탐지 프로세스```
+<p align="center">
+<img src="/img/KIPI_process2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
+</p>
+
 ### 1.2 위크시그널 자동탐지 현황
 
 #### 1.2.1 실험 데이터
@@ -46,9 +58,21 @@
 </p>
 </br>
 
-#### 1.2.2 CPC 벡터 추출
+#### 1.2.2 CPC 집합 추출
 
-> ```Subgroup 별 모든 문서의 대표 벡터 추출```
+> ```CPC Subgroup 별 모든 문서의 대표 벡터 추출```
+
+- 문서 기준 : 4,661,158건
+- subgroup 기준 : 128,395개 (주분류)
+
+<p align="center">
+<img src="/img/cpc_group_extract1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+<p align="center">
+<img src="/img/cpc_group_extract2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
 
 #### 1.2.3 CPC 활동성 측정
 

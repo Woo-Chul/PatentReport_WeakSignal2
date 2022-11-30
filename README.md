@@ -153,17 +153,18 @@
 
 > ```CPC 위크시그널 해석```
 
-> 위크시그널로 나온 3,838개의 그래프들이 어떤 기술인지를 확인하기 위해서 CPC를 KSIC산업분류와 맵핑시켜 기술 파악하고 해석하려고 합니다. 따라서 산업(KSIC)-특허 연계표를 활용하여 기> 술을 해석해 보겠습니다.
+> 위크시그널로 나온 3,838개의 그래프들이 어떤 기술인지를 확인하기 위해서 CPC를 KSIC산업분류와 맵핑시켜 기술 파악하고 해석하려고 합니다. 따라서 산업(KSIC)-특허 연계표를 활용하여 기술을 해석해 보겠습니다.
 
 <p align="center">
 <img src="/img/weak_signal_check1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> <위크시그널 해석을 위한 산업분류와 특허분류의 맵핑표 적용> </p>
 
-> ```KSIC 산업분류를 활용한 CPC 위크시그널 해석```
+> ```KSIC 산업분류를 활용한 CPC 위크시그널 해석 방법```
 
-> 산업분류로 맵핑표에서는 서브클래스 기준으로 맵핑되었기에 아래의 설명 방식대로 기술을 표현하였고, 너무 포괄적인 산업 분류명인 경우는 제거하였습니다. 
-
+> 산업분류로 맵핑표에서는 서브클래스 기준으로 맵핑되었기에 아래의 설명 방식대로 기술을 표현하였고, 너무 포괄적인 산업 분류명인 경우는 제거하였습니다. 따라서 61개 산업분류 중 3개가 
+제거 됩니다.
+  
 <p align="center">
 <img src="/img/weak_signal_check2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
@@ -175,10 +176,26 @@
 </p>
 <p align="center"> <너무 포괄적인 산업분류는 제거> </p>
 
+> ```KSIC 산업분류를 활용한 CPC 위크시그널 해석```
+
+  
 ## 2. CPC 코드 활용 위크시그널 성장예측모델
 
 ### 2.1 학습모델: Graph Convolutional Neural Network
 
+> ```위크시그널의 성장추이 데이터를 기반으로 미래 위크시그널을 예측하는 그래프 모델```
+  
+- GCNN 모델은 그래프 특성을 convolutional neural network의 분석하는 방식으로, 그래프의 node prediction, link prediction, graph classification, prediction 가능
+- 본 연구에서는 위크시그널을 구성하는 CPC subgroup 네트워크에 대해서 고성장으로 분류하는 graph classification 기능을 이용
+- 특허 위그시그널의 10년 후 성장추이를 관찰하여 고성장하는 위크시그널 네트워크를 분류하는 네트워크 분류 모델을 개발
+- KISTI 보고서에 내용과 일치하도록 Graph Convolutional Neural Network 모델이 구현된 파이썬 패키지 StellarGraph를 이용하였고 DeepGraphCNN 알고리즘을 활용
+  
+<p align="center">
+<img src="/img/gcnn_example.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> <GCNN 모델을 활용한 고성장 특허 예측 예시> </p> 
+  
+  
 ### 2.2 학습데이터: 기준데이터, 성장데이터, 데이터 증강
 
 ### 2.3 학습모델 성능 및 2022 위크시그널에 대한 성장성 예측결과

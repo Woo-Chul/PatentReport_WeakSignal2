@@ -165,13 +165,13 @@
 > 산업분류로 맵핑표에서는 서브클래스 기준으로 맵핑되었기에 아래의 설명 방식대로 기술을 표현하였고, 너무 포괄적인 산업 분류명인 경우는 제거하였습니다. 
 
 <p align="center">
-<img src="/img/weak_signal_check3.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/weak_signal_check2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> <CPC특허분류를 산업분류로 맵핑하는 > </p>
+<p align="center"> < CPC특허분류를 산업분류로 맵핑하는 > </p>
 </br>
 
 <p align="center">
-<img src="/img/weak_signal_check4.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/weak_signal_check3.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> <너무 포괄적인 산업분류는 제거> </p>
 

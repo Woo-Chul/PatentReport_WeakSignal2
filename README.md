@@ -193,10 +193,17 @@
 <p align="center">
 <img src="/img/gcnn_example.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> <GCNN 모델을 활용한 고성장 특허 예측 예시> </p> 
-  
+<p align="center"> < GCNN 모델을 활용한 고성장 특허 예측 예시> </p> 
   
 ### 2.2 학습데이터: 기준데이터, 성장데이터, 데이터 증강
+
+#### 2.2.1 GCNN 학습데이터 구축
+
+#### 2.2.2 GCNN 모델 설계
+
+#### 2.2.3 GCNN 모델 학습
+
+#### 2.2.4 GCNN 모델 평가 및 분석
 
 ### 2.3 학습모델 성능 및 2022 위크시그널에 대한 성장성 예측결과
 

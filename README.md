@@ -199,8 +199,42 @@
 
 #### 2.2.1 GCNN 학습데이터 구축
 
+> ```CPC subgroup을 graph의 node로 feature와 함께 학습데이터로 구축```  
+
+- Graph : node + edge + node_feature + edge_feature
+- Node : CPC subgroup
+- Edge : weak signal 연결
+- Node feature : 5년간 연도별 특허수
+- Edge feature : edge weight 유사도
+  
+> ```고성장 기술 라벨링 기준```  
+
+> 특허수(성장데이터) - 특허수(기준데이터) >= 10
+
+> 기준데이터는 과거 5년 기간 동안 weak signal로 출연한 특허수로 보고 성장데이터는 기준데이터의 10년 후 5년 기간 동안 해당 weak signal로 출연한 특허수라고 볼 수 있습니다. 예를 들
+면 2001년~2006년을 기준데이터로 보면 예측하는 기간은 2011년~2016년을 대상으로 고성장 기술을 예측하게 됩니다.
+  
+<p align="center">
+<img src="/img/gcnn_dataset2.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> < 기준데이터, 성장데이터 기준> </p>   
+ 
+> ```학습데이터```  
+
+- 학습데이터 : 23,540건 (2,354건을 1/30을 표준편차로 하는 normal random noise를 적용하여 10배 확장)
+- 평가데이터 : 266건(89건 고성장, 177건 非고성장)
+  
 #### 2.2.2 GCNN 모델 설계
 
+> ```GCNN 모델 layer 설계```  
+
+> GCNN 분류 모델은 KISTI 보고서에서 제시한 동일한 layer를 적용하여 실험하였습니다. 
+  
+<p align="center">
+<img src="/img/gcnn_layers.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center"> < GCNN 모델 설계> </p>   
+  
 #### 2.2.3 GCNN 모델 학습
 
 #### 2.2.4 GCNN 모델 평가 및 분석

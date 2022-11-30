@@ -167,7 +167,7 @@
 <p align="center">
 <img src="/img/weak_signal_check2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> < CPC특허분류를 산업분류로 맵핑하는 > </p>
+<p align="center"> < CPC특허분류를 산업분류로 맵핑하는 방법 예시> </p>
 </br>
 
 <p align="center">

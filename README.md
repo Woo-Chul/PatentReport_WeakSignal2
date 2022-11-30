@@ -108,7 +108,7 @@
 
 
 <p align="center">
-<img src="/img/cpc_auto_group1.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/cpc_auto_group1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> < CPC subgroup으로 연결된 기술그룹 그래프 예시> </p>
 </br>

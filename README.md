@@ -266,4 +266,3 @@
 <p align="center">
 <img src="/img/predict_weak_signal.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> < GCNN 모델 설계> </p>

@@ -38,6 +38,11 @@
 </br>
 
 > ```KIPI 위크시그널 자동탐지 프로세스```
+
+> 기존 프로세스와 다른 점은 기술의 표현을 키워드의 집합으로 구성되던 것이 CPC subgroup의 집합으로 구성되는 것입니다. 따라서 키워드와 키프레이즈를 추출했던 과정이 CPC subgroup의 벡
+터 추출로 대체됩니다. CPC subgroup 벡터는 해당되는 주분류의 문헌들의 벡터를 추출하고 그 평균으로 CPC subgroup의 대표가 됩니다. 또한 문헌 벡터를 추출할 때 제목, 초록, 배경기술 
+, 기술분야 외에 청구항 벡터도 함께 추출하여 평균으로 문헌벡터를 만드는 부분도 다른점이 될 것입니다. 
+
 <p align="center">
 <img src="/img/KIPI_process2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
 </p>

@@ -195,7 +195,7 @@
 <p align="center">
 <img src="/img/gcnn_example.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> < GCNN 모델을 활용한 고성장 특허 예측 예시> </p> 
+<p align="center"> < GCNN 모델을 활용한 고성장 특허 예측 예시> *KISTI 미래기술 위크시그널 성장예측보고서 </p> 
   
 ### 2.2 학습데이터: 기준데이터, 성장데이터, 데이터 증강
 
@@ -237,7 +237,7 @@
 <p align="center">
 <img src="/img/gcnn_layers.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> < GCNN 모델 설계> </p>   
+<p align="center"> < GCNN 모델 설계> *KISTI 미래기술 위크시그널 성장예측보고서 </p>   
   
 #### 2.2.3 GCNN 모델 학습
 

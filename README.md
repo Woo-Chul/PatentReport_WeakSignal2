@@ -257,7 +257,7 @@
 - accuracy : 70.55
 
 <p align="center">
-<img src="/img/train_test_dataset.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/train_test_dataset.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> < 학습데이터와 평가데이터 > </p>  
   

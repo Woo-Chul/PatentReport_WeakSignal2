@@ -175,9 +175,6 @@
 <img src="/img/weak_signal_check3.png" width="40%" height="40%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> <너무 포괄적인 산업분류는 제거> </p>
-
-> ```KSIC 산업분류를 활용한 CPC 위크시그널 해석```
-
   
 ## 2. CPC 코드 활용 위크시그널 성장예측모델
 

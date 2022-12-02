@@ -265,7 +265,7 @@
 
 - 평가데이터 : 2008년에서 2010년 특허 데이터
 - 10 batch 학습
-- accuracy : 97.44
+- accuracy : 97.44%
 
 <p align="center">
 <img src="/img/train_test_dataset.png" width="35%" height="35%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>

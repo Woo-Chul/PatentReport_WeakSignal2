@@ -240,9 +240,9 @@
 - 평가데이터 기간 : 2008년에서 2010년 특허 데이터
   
 <p align="center">
-<img src="/img/high_tech_labeling.png" width="75%" height="75%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/high_tech_labeling.png" width="90%" height="90%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center"> < GCNN 모델 설계> *KISTI 미래기술 위크시그널 성장예측보고서 </p>   
+<p align="center"> < 고성장 예측 모델 라벨링 후 학습데이터> </p>   
   
 #### 3.2.2 GCNN 모델 설계
 

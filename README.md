@@ -287,14 +287,16 @@
 <p align="center">
 <img src="img/predict_weak_signal.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+<p align="center"> <연도별 위크시그널 고성장 예측 Top1~5 > </p>   
+</br>
 
-> ```실제 담배 제조업 관련 연도별 출원건수```
+> ```국내 특허 내 담배 제조업 관련 연도별 출원건수```
 
 > 담배제조업의 경우 2008년에서 2013년의 그래프 데이터를 보고 10년 후 위크시그널 고성장 데이터로 예측하였습니다. 이를 확인하기 위해 실제 국내 특허 내 청구범위에서 '담배'라는 키워드가 사용된 통계를 보면 아래와 같습니다. 실제로 2008년에서 2010년까지 702건에 해당하는 담배제조업 출원 건수가 10년 후 2018년에서 2020년까지 1,355건으로 2배 넘게 급성장 하였습니다. 아래 차트에서 파란색 부분이 분석기간이 되고 빨간색 부분이 예측하는 예상기간이 됩니다. 키워드 혹은 키프레이즈를 활용한 위크시그널과 맞물려서 CPC를 활용한 위크시그널 또한 고성장 데이터로 예측이 동일하게 잘 된 것을 볼 수 있습니다.
 
 </br>
 <p align="center">
-<img src="img/cigaratte_statistic_.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="img/cigaratte_statistic_.png" width="45%" height="45%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center"> < 담배 제조업 관련 연도별 출원건수 그래프> </p>   
 

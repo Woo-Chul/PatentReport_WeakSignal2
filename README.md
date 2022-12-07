@@ -62,7 +62,7 @@
 
 ## 2.1 실험 데이터
 
-- 2001년 ~ 2019년 
+- 2001년 ~ 2019년(출원연도 기준)
 - 특허 공개공보 데이터 
 - 전체 CPC(Cooperative Patent Classification)의 Subgroup 대상
 - Subgroup 기준 주분류 128,395개
